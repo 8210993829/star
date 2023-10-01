@@ -1,0 +1,1171 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,700;1,600&display=swap'); 
+
+:root{
+    --maincolor:var(orange);
+    font: size 20px;
+}   
+*{
+    margin: 0;
+    padding: 0;
+    transition: .3s linear; 
+    text-decoration: none;
+    text-transform: small;
+    outline: none;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.header{
+    padding: 2rem 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+      /* position: fixed;  */
+     top: 0;
+    right: 0;
+    left: 0; 
+    box-shadow: 0 .5rem .5re (rgb(15, 186, 35), 5, 223, 0.204);
+    border: rgb(207, 28, 28);
+  
+}
+.header #logo img{
+    width: 100px;
+    margin-left: 5px;
+}
+
+header .navbar a{
+    color: #fff;
+    font-size: 2rem;
+    margin: .8rem;
+    z-index: 1000;
+} 
+
+  .header .navbar a{
+    font-size: 3rem;
+     margin-left: 1.5rem; 
+    color: var(--maincolor);
+border-color:#ffffff;
+
+}
+.header .navbar a:hover{
+   color:var(orange);
+   border: #333;
+   
+}
+.header .icons{
+    font-size: 2.5rem;
+   
+} 
+
+.header .icons div{
+    margin-left: 1rem;
+    cursor: pointer;
+}
+.header .icons div:hover{
+    color: var(--orange);
+}
+.header .icons #menu-bars{
+    display: none;
+}
+.header .search-box{
+    position:fixed;
+    top: 110%;
+    right: 100%;
+    width: 50%;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.header .search-box input{
+    padding: 1.5rem;
+    border-radius: 15px;
+    width: 100%;
+    border: none;
+}
+.header .search-box.active{
+    right: 2rem;
+}
+.header .navbar.active{
+    left: 0;
+}
+
+ .main-background{
+    background: url(img/1.jpg);
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-attachment: fixed; 
+}
+.main-text{
+    text-align: center;
+}
+.main-text h2{
+    color: white;
+    font-size: 30px;
+}
+.main-text h1{
+    color: white;
+    font-size: 38px;
+}
+.main-text h1 span{
+    color: var(--maincolor);
+} 
+.book-section{
+    padding: 2rem 7%;
+    /* height: 50vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-book{
+    width: 100%;
+    background: black;
+    display: flex;
+  /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    color: var(--orange);
+}
+.inner-book input{
+    padding: 1rem 2rem;
+    margin: .5rem 0;
+    font-size: 1.7rem;
+}
+.book-btn{
+    padding: 1.1rem 2rem;
+    background: var(--maincolor);
+
+}
+.book-btn a{
+    color: var(--orange);
+    font-size: 1.5rem;
+}
+header h1{
+    text-align: center;
+    border-radius: 5px;
+    color: #eee6e6;
+}
+.main-hotel{
+    padding: 2rem 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.award-winning-hotel h1{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    padding: 2%;
+    box-shadow: #000;
+}
+.award-winning-hotel h1 span{
+    color: var(--orange);
+}
+.inner-award{
+    flex: 1 1 300px;
+}
+.inner-award h2,p{
+    text-align: center;
+}
+.inner-award h2{
+    font-size: 30px;
+    padding: 1rem;
+}
+.inner-award p{
+    font-size: 1.7rem;
+    padding: 0rem;
+}
+.inner-award img{
+    width: 100%;
+    border-radius: 10px;
+    border: 5px solid  orangered;
+
+}
+
+.Our-Rooms span{
+    font-size: 3.5rem; 
+    background: rgba(255, 155, 0, .2);
+    color: var(--orange);
+     border-radius: .5rem; 
+    padding: .1rem 1.5rem;  
+}
+.Our-Rooms h1{
+    text-align: center;
+    color: var(--orange);
+}
+
+.Our-Rooms img{
+   border-radius: 10px;
+   border: 5px solid black;
+   cursor: pointer;
+}
+
+/* .Our-Rooms .container a{
+	width: 100%;
+	/* padding: 0.7rem 1.5rem; */
+	/* background: white; */
+	/* color:black;
+	border: none;
+	outline: none;
+	margin-top: 1rem;
+	cursor: pointer;
+   
+} */ */
+
+
+.Our-Rooms .container .btn{
+    border: 5px solid black;
+    text-align: right;
+}
+
+.Our-Rooms .container .btn{
+    border: 5px solid black;
+    text-align: center;
+    cursor: pointer;
+}
+.Our-Rooms .container .btn:hover{
+	background: orangered;
+}
+.Our-Rooms .container .fa-wifi{
+    font-size: 2.5rem;
+}
+.Our-Rooms .container .fa-bed{
+    font-size: 2.5rem;
+}
+/* .our-rooms h1{
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 2rem;
+} */
+/* .our-rooms h1 span{
+    color: var(--orange);
+} */
+/* .inner-rooms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+} */
+/* .inner-rooms .room-box{
+    flex: 1 1 300px;
+} */
+/* .inner-rooms .room-box img{
+     /* width: 100%;  */
+    /* padding: 1rem;
+    border-radius: 25px; */
+  /* border: 5px solid orangered;   */
+/* } */ */
+/* .inner-rooms .room-box .beds{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 5rem;
+} */
+/* .inner-rooms .room-box .beds span{
+    font-size: 1.7rem;
+} */
+/* .inner-rooms .room-box .beds i{
+    font-size: 2rem;
+    color: var(--maincolor);
+    cursor: pointer;
+} */
+/* .book-room-btn{
+    width: 50%;
+    margin: 0;
+    padding: 1.5rem 2rem;
+    border: 1px solid var(--orange);
+    text-align: center;
+} */
+/* .book-room-btn:hover{
+    color:var orange;
+    background: var(--orange);
+} */
+/* .book-room-btn a{
+    color: black;
+    font-size: 1.7rem;
+} */
+/* .book-room-btn a:hover{
+    color: var orangered;
+} */
+ .second-background{
+    background: url(img/2.jpg);
+    background-size: cover;
+     background-position: center;  
+     background-repeat: no-repeat;
+    width: 100%;
+    height: 9000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+} 
+
+.third-background{
+    background: url(img/2.jpg);
+    background-size: cover;
+     /* background-position: center;  */
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+.second-background{
+    text-align: center;
+    
+}
+.second-background h1{
+    font-size: 60px;
+    color: white;
+}
+.second-background h2{
+    color: var(--orange);
+    font-size: 35px;
+}
+
+
+  .gallery span {
+    font-size: 3.5rem; 
+   background: rgba(255, 155, 0, .2);
+   color: var(--orange);
+    border-radius: .5rem; 
+   padding: .1rem 1.5rem;
+   
+}   
+.gallery h1{
+    text-align: center;
+    color: var(--orange);
+    margin-top: 2%;
+}
+
+.gallery .container img{
+    border-radius: 10px;
+    border: 5px solid black;
+    cursor: pointer;
+}
+
+.gallery .container h2{
+    text-align: center;
+    color: black;
+    
+}
+.gallery .container .btn{
+    border: 5px solid black;
+    color: black;
+}
+
+.gallery .container .btn:hover{
+    color: var(--orange);
+}
+.gallery .container .stars{
+    text-align: center;
+    color: var(--orange);
+    font-size: 1.5rem;
+}
+
+.gallery .container .price{
+    font-size: 2rem;
+}
+
+
+.gallary span {
+    font-size: 3.5rem; 
+   background: rgba(255, 155, 0, .2);
+   color: var(--orange);
+    border-radius: .5rem; 
+   padding: .1rem 1.5rem;
+   
+}   
+.gallary h1{
+    text-align: center;
+    color: var(--orange);
+    margin-top: 2%;
+}
+
+
+ .cm-header-label {
+    color: black(248, 14, 14);
+    font-size: 40px;
+    text-align: center;
+    padding: 2rem;
+}
+
+
+ .home  {
+    font-size: 3.5rem; 
+   background: rgba(255, 155, 0, .2);
+   color: var(--orange);
+    border-radius: .5rem; 
+   padding: .1rem 1.5rem;
+   
+}   
+.home h1{
+    text-align: center;
+    color: var(--orange);
+    margin-top: 2%;
+} 
+
+ 
+.home h1{
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    /* border: 7px solid gray; */
+
+} 
+.luxurious rooms h1{
+color:var(--orange);
+}
+.arif{
+    flex: 1 1 300px;
+}
+
+.arif h2,p{
+    text-align: center;
+}
+.arif h2{
+    font-size: 30px;
+    padding: 1rem;
+}
+.arif p{
+    font-size: 1.7rem;
+    padding: 2rem;
+}
+/* .arif img{
+    width: 100%;
+} */
+/* .inner-award{
+    padding: 2rem 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+} */
+
+.swiper-button-prev{
+    left: 0%;
+ }
+ 
+ .swiper-button-next{
+    right: 0;
+ }
+ 
+ .swiper-button-next,
+ .swiper-button-prev{
+    /* padding: 1rem 1rem; */
+    background-color: var(--white);
+    top: 40%;
+    opacity: .7;
+ }
+ 
+ .swiper-button-next::after,
+ .swiper-button-prev::after{
+    color: var(--main-color);
+    font-size: 2rem;
+ }
+ 
+ .swiper-button-next:hover,
+ .swiper-button-prev:hover{
+    opacity: 1;
+ }
+ 
+ .availability form .flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    
+ }
+ 
+ .availability form .flex .box{
+    flex: 1 1 20rem;
+    
+ }
+ 
+ .availability form .flex .box p{
+    font-size: 2rem;
+    color: var(--sub-color);
+ }
+ 
+ .availability form .flex .box .input{
+    width: 100%;
+    padding: 1rem 0;
+    font-size: 1.8rem;
+    background-color: var(--main-color);
+    color: var(--orange);
+    border-bottom: var(--border);
+    margin: 1rem 0;
+    cursor: pointer;
+    
+ }
+ 
+ .availability form .flex .box input[type="date"]::-webkit-calendar-picker-indicator{
+    filter: invert(1);
+    border: 5px solid black;
+    cursor: pointer;
+ }
+
+ 
+
+
+.ab img{
+    height: 250px;
+    width: 50%;
+    cursor: pointer;
+}
+
+.btn {
+    font-size: large;
+    font-weight:bold;
+    text-align: right;
+    /* color: crimson;  */
+    cursor: pointer;
+} 
+
+
+.container-fluid{
+    padding-top: 2%;
+    padding-bottom: 2%;
+   
+
+}
+
+.container-fluid h4{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.containerr-fluid{
+    margin-top: 2%;
+    margin-bottom: 2%; 
+}
+
+
+.navbar{
+     color:var(orange);
+     border: #333;
+        
+}
+
+ .navbar span{
+    width: 3rem;
+} 
+
+
+.packages span {
+    font-size: 3.5rem; 
+   background: rgba(255, 155, 0, .2);
+   color: var(--orange);
+    border-radius: .5rem; 
+   padding: .1rem 1.5rem;
+  
+}  
+
+.packages h1{
+    text-align: center;
+    color: var(--orange);
+    margin-top: 2%;
+}
+
+.packages .container p{
+    text-align: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.packages .container .stars{
+    color: var(--orange);
+    font-size: 1.5rem;
+}
+.packages .container .price{
+    font-size: 2rem;
+}
+.packages .container .btn{
+    border: 5px solid black;
+}
+/* .packages .container img{
+    border: 20px solid black;
+}
+ .container img{
+    border: 20px solid black;
+} */
+
+.packages .container a{
+    color: black;
+    
+}
+.packages .container a:hover{
+    color: var(--orange);
+    
+}
+.packages .container a:hover{
+    color: var(--orange);
+    
+}
+
+ .packages .container img{
+    border-radius: 10px;
+    cursor: pointer;
+   
+} 
+ .container img{
+    border-radius: 10px;
+    cursor: pointer;
+   
+} 
+
+.packages .contaner a:hover{
+    color: var(--orange);
+    
+}
+
+/* .packages .container .stars{
+    text-align: center;
+    color: var(--orange);
+} */
+
+ .container h2{
+    text-align: center;
+    color: var(--orange);
+}
+
+ .container p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+ .container.stars{
+    text-align: center;
+    color: var(--orange);
+}
+
+
+.review span {
+    font-size: 3.5rem; 
+   background: rgba(255, 155, 0, .2);
+   color: var(--orange);
+    border-radius: .5rem; 
+   padding: .1rem 1.5rem;
+} 
+
+
+.review .around{
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0,.1);
+    border-radius: 5rem;
+    }
+    
+    
+    .review .around img{
+        height: 13rem;
+        width: 13rem;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 1rem;
+    
+    }
+    
+    .review .around h3{
+        color: #333;
+        font-size: 2.5rem;
+    }
+    
+    .review .around p{
+        color: #666;
+        font-size: 1.5rem;
+        padding: 1rem 0;
+    
+    }
+    
+     .review .around .stars i{
+        color: var(--orange);
+        font-size: 1.7rem;
+        
+    } 
+
+
+    
+.carousel-inner{
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0,.1);
+    border-radius: 5rem;
+    }
+    
+    
+    .carousel-inner .carousel-item img{
+        height: 13rem;
+        width: 13rem;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 1rem;
+    
+    }
+
+    .carousel-inner .carousel-item h3{
+        color: #333;
+        font-size: 2.5rem; 
+    }
+
+    .carousel-inner .carousel-item p{
+        color: #666;
+        font-size: 1.5rem;
+        padding: 1rem 0;
+        text-align:initial;
+    
+    }
+
+    .carousel-inner .carousel-item .stars i{
+        color: var(--orange);
+        font-size: 1.7rem;
+        
+    } 
+     .Luxury-Suite span {
+        font-size: 3.5rem; 
+       background: rgba(255, 155, 0, .2);
+       color: var(--orange);
+        border-radius: .5rem; 
+    } 
+    .Luxury-Suite h1{
+        margin-top: 2%;
+    }
+    .Luxury-Suite .container .price{
+        font-size: 2rem;
+    }
+
+    .Luxury-Suite .container p{
+        font-size: 2rem;
+        color: black;
+    }
+    .Luxury-Suite .btn{
+        color: black;
+        border: 5px solid black;
+    }
+    .Luxury-Suite .btn:hover{
+        color: var(--orange);
+    }
+
+    .Normal-Suite .btn:hover{
+        color: var(--orange);
+    }
+
+    .Normal-Suite span {
+        font-size: 3.5rem; 
+       background: rgba(255, 155, 0, .2);
+       color: var(--orange);
+        border-radius: .5rem; 
+    } 
+    .Normal-Suite h1{
+        margin-top: 2%;
+    }
+    .Normal-Suite .container .price{
+        font-size: 2rem;
+    }
+
+    .Normal-Suite  .container h2{
+        font-size: 2rem;
+        color: black;
+    }
+
+    .Normal-Suite .btn{
+        border: 5px solid black;
+    }
+
+
+    .Principal-Suite span {
+        font-size: 3.5rem; 
+       background: rgba(255, 155, 0, .2);
+       color: var(--orange);
+        border-radius: .5rem; 
+    } 
+
+    .Principal-Suite h1{
+        text-align: center;
+    }
+    .Principal-Suite h1{
+        margin-top: 2%;
+    }
+    .Principal-Suite .container .price{
+        font-size: 2rem;
+    }
+
+    .Principal-Suite .container p{
+        font-size:2rem ;
+        color: black;
+    }
+
+    .Principal-Suite .btn{
+        border: 5px solid black;
+    }
+
+    .Principal-Suite .btn:hover{
+        color: var(--orange);
+    }
+
+    .services .box-container{
+        text-align: center;
+        font-size: 1.5rem
+    }
+    .services .box-container h3{
+        font-size: 2rem;
+        color: orange
+    }
+
+    .services .box-container i{
+        padding: 1rem;
+        font-size: 5rem;
+        color: var(--orange);
+    }
+
+.Booking .container .card body i-a{
+    font-size: 2.5;
+}
+
+
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+
+
+
+
+
+@media only screen and (max-width: 770px){
+	.container{
+		flex-direction: column;
+	}
+	body{
+		overflow-x: hidden;
+	}
+}
+
+
+
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+
+
+/*responsive*/
+@media(max-width: 767px){
+    .footer-col{
+      width: 50%;
+      margin-bottom: 30px;
+  }
+  }
+  @media(max-width: 574px){
+    .footer-col{
+      width: 100%;
+  }
+  }
+  
+  
+  
+  /* .inner-gallery {
+    position: relative;
+  }
+  .inner-gallery:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: blue;
+    width: 100%;
+    height: 100%;
+    opacity: .1;
+    
+  }
+  .inner-gallery i{
+      position: absolute;
+      font-size: 2rem;
+      top: 50%;
+      left: 50%;
+      color: black;
+      z-index: 10000;
+  } */
+  
+
+  /* .gallary img {
+    width: 270px;
+    height: 350px;
+  }
+  
+  .owl-carousel .owl-next,
+  .owl-carousel .owl-prev {
+    height: 50px;
+    position: absolute;
+    width: 50px;
+    cursor: pointer;
+    top: 35%;
+    background: white !important;
+    transition: 0.5s;
+  }
+/*   
+  .owl-carousel .owl-prev {
+    left: 33px;
+  }
+  
+  .owl-carousel .owl-next {
+    right: 33px;
+  }
+  
+  .owl-carousel .owl-next:hover,
+  .owl-carousel .owl-prev:hover {
+    background: #C1B086 !important;
+  } */
+
+
+
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #f80909;
+	text-decoration: none;
+	font-weight: 300;
+	color: #eee6e6;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer p{
+    color: #fff;
+}
+.footer-col ul li a:hover{
+	color: #0334f7;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ea5c04;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+
+
+
+@media (max-width:768px) {
+    html{
+        font-size: 50%;
+    }
+
+    .header .icons #menu-bars{
+        display: inline-block;
+    }
+    .header{
+        padding:  2%;
+    }
+    .header .navbar{
+        position: absolute;
+         top: 0%;
+        left:0%; 
+        right: 0;
+        background: var(--maincolor);
+    }
+    .header .navbar a{
+        display: block;
+        margin: 1rem;
+        padding: 1rem;
+        background: white;
+        border-radius: 10px;
+    }
+    .book-btn{
+       width: 100%;
+       margin-top: .5rem;
+    
+    }
+    .book-section{
+        padding: 2rem 0;
+    }
+}
